@@ -48,8 +48,7 @@ Requires a CPU with AVX2 and FMA.
 **Test machine:** Intel Core i5-12500H (4 P-cores + 8 E-cores, 16 threads), WSL2 Ubuntu, GCC,
 Python 3.14, NumPy with OpenBLAS (pip, virtual environment), float32.
 
-GFLOPS = 2*M*N*K / time. Benchmarks are noisy on this laptop, so ranges across several runs are shown.
-
+   GFLOPS = `2*M*N*K / time`. Benchmarks are noisy on this laptop, so ranges across several runs are shown.
 ### Ablation: 1024 x 2048 x 1024 (20 trials per run)
 
 | Version | Change | Median GFLOPS | Best GFLOPS |
